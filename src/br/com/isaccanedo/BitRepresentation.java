@@ -8,7 +8,7 @@ public class BitRepresentation {
 
     // Exibe a representação de Bits do valor inteiro especificado
     public static void display(int value) {
-        System.out.printf("\nBit representation of %d is: \n", value);
+        System.out.printf("\nA representação de %d em bit é: \n", value);
 
         // Cria um valor inteiro com 1 no bit mais à esquerda e os outros locais
         int displayMask = 1 << 31;
